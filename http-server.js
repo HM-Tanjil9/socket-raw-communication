@@ -2,6 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
     console.log("New connection was created");
+    res.end("Something gg");
 })
 
 server.listen(3000, () => {
